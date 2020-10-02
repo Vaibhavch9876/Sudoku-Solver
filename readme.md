@@ -8,7 +8,7 @@
 
 #### Logical Solver
 
-===============================================================================
+===========================================================================
 
     I am not going to go into the rules of Sudoku in this document. The
     assignment already lists those rules. It is assumed here that the
@@ -59,7 +59,7 @@
 
 #### Backtrack Solver
 
-===============================================================================
+===========================================================================
 
     Most puzzles with a single solution can be solved with the logical solver.
     Traditionally that means almost all the puzzles can be solved with this
@@ -83,7 +83,7 @@
 
 #### Observations
 
-===============================================================================
+===========================================================================
 
     As already mentioned above, the singleton logical solver is good enough
     to take care of almost all the easy and medium level puzzles and even
@@ -102,7 +102,7 @@
 
 #### Future Enhancements
 
-===============================================================================
+===========================================================================
 
     As far as the algorithm is concerned, one point is already mentioned
     in the observations section – it cannot handle puzzles with multiple
@@ -127,7 +127,7 @@
 
 #### Algorithm
 
-===============================================================================
+===========================================================================
 
     Here is an overly simplified version of the algorithm.
 
@@ -154,4 +154,4 @@
     program exits otherwise it copies the result back to the original
     array which was passed to the puzzle.
 
-===============================================================================
+===========================================================================
